@@ -8,7 +8,7 @@ public class PrimeNumbers {
         }
         int b = 2;
         while (a < printToInclusive) {
-            while (b % a == 0 && b <= a) {
+            while (b % a == 0 && a <= b) {
                 System.out.println(a);
                 b++;
             }
