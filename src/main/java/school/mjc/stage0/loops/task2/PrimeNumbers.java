@@ -8,9 +8,7 @@ public class PrimeNumbers {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
                     continue out;
-
                 }
-                //System.out.println(i);
             }
             System.out.println(i);
         }
